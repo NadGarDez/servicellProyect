@@ -1,0 +1,512 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+}
+
+a{
+	color:white;
+}
+a:active {
+	color:orange;
+}
+.encabezado{
+	width:100%;
+	height:15%;
+	background-color:E4E5E7;
+	
+}
+
+.encabezado .logo{
+	margin-top:1.5%;
+	margin-left:5px;
+	float:left;
+}
+
+.encabezado .salir{
+	float:right;
+	background-color:8BB434;
+	width:100px;
+	height:40px;
+	margin-top:1.5%;
+	margin-right:5px;
+}
+
+.encabezado .salir .text{
+	margin-top:5px;
+	margin-left:1px;
+}
+
+.roll-over{
+	width:100%;
+	height:63%;
+	background-color:orange;
+}
+.roll-over img{
+	width:100%;
+	height:100%;
+	
+}
+
+.central{
+	width:100%;
+	height:500%;
+	background-color:7D7D7D;
+	padding-top:1%;
+}
+
+.gestorblog{
+	width:95%;
+	height:12%;
+	background-color:E4E5E7;
+	margin-left:2.5%;
+	padding:5px;
+}
+
+.gestorblog h2{
+	margin-left:1.5%;
+}
+
+.gestorblog p {
+	margin-top:5px;
+}
+
+.gestorblog .opcionsubir{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:80%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestorblog .opcionsubir .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+}
+
+.gestorblog .opcionsubir .input {
+	width:80%;
+}
+
+.gestorblog .opcionsubir .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+
+.gestorblog .opcioneditar{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:80%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+
+.gestorblog .opcioneditar .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+}
+
+.gestorblog .opcioneditar .input {
+	width:80%;
+}
+
+.gestorblog .opcioneditar .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+
+.gestorblog .opcioneliminar{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:80%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestorblog .opcioneliminar .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+}
+
+.gestorblog .opcioneliminar .input {
+	width:80%;
+}
+
+.gestorblog .opcioneliminar .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+.gestorblog .opcioneliminar select{
+	width:95%;
+}
+.gestormensajes{
+	width:95%;
+	height:10%;
+	background-color:E4E5E7;
+	margin-left:2.5%;
+	margin-top:3%;
+	padding:5px;
+}
+.gestormensajes .tit{
+	margin-left:1.5%;
+}
+
+.gestormensajes .buzon{
+	float:left;
+	overflow:scroll;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+	width:97%;
+	height:80%;
+	margin-left:1.5%;
+}
+
+.gestormensajes .buzon .tabla1{
+	background-color:8BB434;
+	color:white;
+	width:98%;
+	margin-left:1%;
+	text-align:center;
+	margin-top:1%;
+}
+
+.gestormensajes .buzon .tabla1 td{
+	width:14.28%;
+	
+}
+
+.gestormensajes .buzon .tabla2{
+	background-color:7D7D7D;
+	color:white;
+	width:98%;
+	margin-left:1%;
+	text-align:center;
+	margin-top:1%;
+}
+
+.gestormensajes .buzon .tabla2 td{
+	width:14.28%;
+	
+}
+
+.gestormensajes .buzon .tabla2 a{
+	color:blue;
+	
+}
+
+.gestormensajes .buzon .tabla2 tr:hover{
+	background-color:E4E5E7;
+	color:black;
+}
+
+
+
+ .zona_respuesta{
+	 display:none;
+	overflow:scroll;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+	width:97%;
+	height:80%;
+	margin-left:1.5%;
+}
+
+.zona_respuesta .tit{
+	float:left;
+	margin-left:1.5%;
+	
+}
+
+.zona_respuesta .enlace_cerrar{
+	float:right;
+	color:blue;
+	margin-right:1.5%;
+	
+}
+
+
+ .zona_respuesta input{
+	display:block;
+	margin-top:1%;
+	margin-left:1.5%;
+	width:50%;
+	height:10%;
+}
+
+.zona_respuesta textarea{
+	margin-top:1%;
+	margin-left:1.5%;
+	width:97%;
+	height:80%;
+}
+
+
+.gestortienda{
+	width:95%;
+	height:24%;
+	background-color:E4E5E7;
+	margin-left:2.5%;
+	padding:5px;
+	margin-top:3%;
+}
+
+.gestortienda p {
+	margin-top:5px;
+}
+
+.gestortienda .tit {
+	margin-left:1.5%;
+}
+
+.gestortienda .opcionsubir{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:40%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestortienda .opcionsubir .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+}
+
+.gestortienda .opcionsubir .input {
+	width:80%;
+}
+
+.gestortienda .opcionsubir .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+
+.gestortienda .opcioneditar{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:40%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+
+.gestortienda .opcioneditar .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+	height:8%;
+}
+
+
+.gestortienda .opcioneditar .input {
+	width:80%;
+}
+
+.gestortienda .opcioneditar .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+
+.gestortienda .opcioneliminar{
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:30%;
+	height:40%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestortienda.opcioneliminar .text {
+	clear:both;
+	margin-top:5px;
+	width:95%;
+}
+
+.gestortienda .opcioneliminar .input {
+	width:80%;
+}
+
+.gestortienda .opcioneliminar .submit{
+	margin-top:10px;
+	width:50px;
+	height:20px;
+	margin-left:40%;
+}
+.gestortienda .opcioneliminar select{
+	width:95%;
+}
+
+.inventario{
+	overflow:scroll;
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:95.5%;
+	height:40%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+	margin-top:5%;
+}
+
+.inventario .tabla1{
+	background-color:8BB434;
+	color:white;
+	width:98%;
+	margin-left:1%;
+	text-align:center;
+	margin-top:1%;
+}
+
+.inventario .tabla1 td{
+	width:16.6%;
+}
+
+.inventario .tabla2{
+	background-color:7D7D7D;
+	color:white;
+	width:98%;
+	margin-left:1%;
+	text-align:center;
+	margin-top:1%;
+}
+
+.inventario .tabla2 td{
+	width:16.6%;
+	
+}
+
+.inventario .tabla2 a{
+	color:blue;
+	
+}
+
+.inventario .tabla2 tr:hover{
+	background-color:E4E5E7;
+	color:black;
+}
+
+
+.gestordepedido{
+	width:95%;
+	height:40%;
+	background-color:E4E5E7;
+	margin-left:2.5%;
+	padding:5px;
+	margin-top:3%;
+}
+
+.gestordepedido h2{
+	margin-left:1.8%;
+}
+
+.gestordepedido .pedidosporprocesar {
+	overflow:scroll;
+	overflow:scroll;
+	border-style:solid;
+	border-color:black;
+	background-color:white;
+	width:97%;
+	height:30%;
+	margin-left:1.5%;
+}
+
+.gestordepedido .pagosporprocesar{
+	overflow:scroll;
+	margin-top:1.8%;
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:47%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestordepedido .pagosprocesados{
+	overflow:scroll;
+	margin-top:1.8%;
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:47%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestordepedido .listosparaenviar{
+	overflow:scroll;
+	margin-top:1.8%;
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:47%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.gestordepedido .enviados{
+	overflow:scroll;
+	margin-top:1.8%;
+	margin-left:1.5%;
+	float:left;
+	background-color:white;
+	width:47%;
+	height:30%;
+	border-style:solid;
+	border-color:black;
+	padding:3px;
+}
+
+.footer{
+	width:100%;
+	height:12%;
+	background-color:E4E5E7;
+	font-size:0.3cm;
+	COLOR:green;
+	padding-top:10px;
+	padding-left:5px;
+}
+
+.footer .img{
+	width:30%;
+	height:90%;
+}

@@ -1,0 +1,18 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.fondo{
+	background-color:7D7D7D;
+	width:100%;
+	height:100%;
+}
+
+.formulario_entrar{
+	margin-left:30%;
+	width:40%;
+	height:40%;
+	background-color:E4E5E7;
+	
+}
